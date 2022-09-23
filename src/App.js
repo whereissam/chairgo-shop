@@ -12,6 +12,8 @@ import {
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 import Navbar from './component/navbar';
 import Footer from './component/footer';
+import About from './component/About';
+// import Home from './component/Home';
 
 function App () {
   return (
@@ -20,7 +22,8 @@ function App () {
         <Navbar />
         <Grid minH="100vh" p={3}>
 
-
+          {/* <Home /> */}
+          <About />
         </Grid>
         <Footer />
       </Box>
